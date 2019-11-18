@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="250dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/btn_blue"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGo"
+        android:text="Barchart" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/btn_blue"
+        android:onClick="onClickNext"
+        android:text="HorizontalBarChart" />
+
+    <Button
+        android:id="@+id/btnPieChart"
+        style="@style/btn_blue"
+        android:onClick="onClickGoback"
+        android:text="Pie Chart Demo" />
+
+</LinearLayout>
